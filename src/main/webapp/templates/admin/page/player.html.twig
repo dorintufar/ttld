@@ -1,0 +1,84 @@
+{% extends "admin/layout.html.twig" %}
+
+{% block body_container %}
+    <div class="container-fluid noselect" style="margin-bottom: 20px">
+        <div class="row">
+            <button type="button" class="btn btn-filesystem-control">
+                <span class="glyphicon glyphicon-flash" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="input-group">
+        <input type="text" class="form-control filesystem-path" title="path">
+        <div class="input-group-btn">
+            <button type="button" class="btn btn-filesystem-control filesystem-directory-up">
+                <span class="glyphicon glyphicon-level-up" aria-hidden="true"></span>
+            </button>
+            <button type="button" class="btn btn-filesystem-control filesystem-directory-new">
+                <span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span>
+            </button>
+            <button type="button" class="btn btn-filesystem-control filesystem-file-new">
+                <span class="glyphicon glyphicon-open-file" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="current-directory-container container-fluid noselect" style="margin-top: 10px">
+    </div>
+
+    <div class="modal fade filesystem-file-new-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Upload new</h4>
+                </div>
+                <form method="POST" action="/admin/upload/sound" id="upload_audio_form" enctype="multipart/form-data">
+                    <div class="modal-body">
+                        <input type="file" name="file" id="upload_audio_form_file_input" class="input-group" accept="audio/*">
+                        <input type="text" name="path" id="upload_audio_form_path_input" hidden>
+
+                        <div class="progress" style="margin-top: 20px" hidden>
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                <span class="sr-only">Uploading</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade filesystem-directory-new-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Confirmation</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Do you want to save changes you made to document before closing?</p>
+                    <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {#<audio controls preload="auto">#}
+        {#<source src="http://192.168.0.106:5555/" type="audio/mp3">#}
+        {#Your browser does not support the audio element.#}
+    {#</audio>#}
+
+    <audio controls id="base-player" hidden preload="none">
+    </audio>
+{% endblock %}

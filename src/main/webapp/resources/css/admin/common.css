@@ -1,0 +1,57 @@
+.navbar-white {
+    background: #FFFFFF !important;
+}
+
+.container-body {
+    padding-top: 80px;
+}
+
+.player-filesystem-row {
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.player-filesystem-row:hover {
+    background: #777868;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+.filesystem-edit-button:hover {
+    color: #13e503 !important;
+}
+
+.btn-filesystem-control {
+    color: #333;
+    background-color: #777868;
+    border-color: #777868;
+}
+.btn-filesystem-control:hover {
+    background-color: #000000;
+    color: red;
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+.form-control:focus {border-color:rgba(100,100,100,1)!important;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}

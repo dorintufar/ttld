@@ -1,0 +1,7 @@
+{
+  "name": "ttld_frontend_dependencies",
+  "version": "0.0.5",
+  "dependencies": {
+    "bootstrap": "bootstrap@3.3.7"
+  }
+}

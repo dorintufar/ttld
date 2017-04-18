@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    {% block meta %}
+    <!-- Behavioral Meta Data -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    {% endblock %}
+
+    <title>{% block title %}TTLD BackOffice{% endblock %}</title>
+
+    {% block stylesheets %}
+    <link type="text/css" rel="stylesheet" href="../../resources/vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="../../resources/vendor/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+    <link type="text/css" rel="stylesheet" href="../../resources/css/admin/common.css">
+    {% endblock %}
+</head>
+<body>
+    {% block body %}
+        {% block header %}
+            {% include "admin/pieces/common_navbar.html.twig" %}
+        {% endblock %}
+
+        <div class="container container-body">
+        {% block body_container %}
+
+        {% endblock %}
+        </div>
+
+        {% block footer %}
+        {% endblock %}
+    {% endblock %}
+
+    {% block javascripts %}
+    <script type="text/javascript"
+            src="../../resources/vendor/require/require.js"
+            data-main="../../resources/js/admin/app"></script>
+    {% endblock %}
+</body>
+</html>
