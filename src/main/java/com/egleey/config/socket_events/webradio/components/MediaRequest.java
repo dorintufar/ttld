@@ -1,7 +1,7 @@
 package com.egleey.config.socket_events.webradio.components;
 
 import com.egleey.config.socket_events.webradio.MediaCodeType;
-import com.egleey.util.ParseEnum;
+import com.egleey.util.components.ParseEnum;
 
 public class MediaRequest {
     private String id;

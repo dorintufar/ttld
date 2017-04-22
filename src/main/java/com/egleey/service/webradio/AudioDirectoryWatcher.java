@@ -1,6 +1,7 @@
 package com.egleey.service.webradio;
 
 import com.egleey.util.components.DirectoryWatcher;
+import com.egleey.util.components.Filewalker;
 import com.google.gson.*;
 import com.google.gson.stream.JsonReader;
 
@@ -31,6 +32,7 @@ public class AudioDirectoryWatcher extends DirectoryWatcher {
         super(AUDIO_DIRECTORY_ROOT, AUDIO_DIRECTORY_IS_RECURSIVE);
 
         createMirrorIfAbsent();
+        initJsonMirror();
         appendListeners();
     }
 
@@ -51,16 +53,33 @@ public class AudioDirectoryWatcher extends DirectoryWatcher {
         }
     }
 
+    private void initJsonMirror() {
+        jsonMirror = assembleNew(FIELD_TYPE_DIRECTORY);
+
+        JsonObject children = (JsonObject) jsonMirror.get(DESCRIPTOR_CHILDREN);
+        String absoluteAudioDirectoryRoot = System.getProperty("user.dir") + File.separator + AUDIO_DIRECTORY_ROOT + File.separator;
+
+        Filewalker.getInstance().walk(AUDIO_DIRECTORY_ROOT, (f) -> {
+            String path = f.getAbsolutePath().replace(absoluteAudioDirectoryRoot, "");
+            String[] pieces = path.split(File.separator);
+            JsonObject ref = children;
+
+            for (int i = 0, n = pieces.length; i < n; i++) {
+                if (i == n - 1) {
+                    ref.add(pieces[i], assembleNew(FIELD_TYPE_FILE));
+                } else if (ref.get(pieces[i]) == null) {
+                    ref.add(pieces[i], assembleNew(FIELD_TYPE_DIRECTORY));
+                    ref = (JsonObject) ref.get(pieces[i]);
+                    ref = (JsonObject) ref.get(DESCRIPTOR_CHILDREN);
+                }
+            }
+        });
+
+        save(jsonMirror);
+    }
+
     private void appendListeners() throws FileNotFoundException {
-        Gson gson = new Gson();
-        JsonReader reader = new JsonReader(new FileReader(AUDIO_DIRECTORY_JSON_MIRROR));
-
-        jsonMirror = gson.fromJson(reader, JsonObject.class);
         JsonObject[] finalData =  {jsonMirror};
-
-        if (finalData[0] == null) {
-            finalData[0] = assembleNew(FIELD_TYPE_DIRECTORY);
-        }
 
         this.appendListener((event, child) -> {
             File file = child.toFile();
@@ -101,16 +120,20 @@ public class AudioDirectoryWatcher extends DirectoryWatcher {
                 }
             }
 
-            try {
-                FileOutputStream fOut = new FileOutputStream(AUDIO_DIRECTORY_JSON_MIRROR);
-                OutputStreamWriter myOutWriter = new OutputStreamWriter(fOut);
-                myOutWriter.write(finalData[0].toString());
-                myOutWriter.close();
-                fOut.close();
-            } catch (Exception e) {
-                System.out.format("Can't update mirror : %s", AUDIO_DIRECTORY_JSON_MIRROR);
-            }
+            save(finalData[0]);
         });
+    }
+
+    private void save(JsonObject object) {
+        try {
+            FileOutputStream fOut = new FileOutputStream(AUDIO_DIRECTORY_JSON_MIRROR);
+            OutputStreamWriter myOutWriter = new OutputStreamWriter(fOut);
+            myOutWriter.write(object.toString());
+            myOutWriter.close();
+            fOut.close();
+        } catch (Exception e) {
+            System.out.format("Can't update mirror : %s", AUDIO_DIRECTORY_JSON_MIRROR);
+        }
     }
 
     private JsonObject assembleNew(String type) {

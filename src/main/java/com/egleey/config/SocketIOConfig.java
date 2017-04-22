@@ -8,13 +8,14 @@ import com.egleey.config.socket_events.webradio.MediaDispatcher;
 import com.egleey.config.socket_events.webradio.WebRadioCurrentState;
 import com.egleey.config.socket_events.webradio.components.MediaRequest;
 import com.egleey.service.webradio.AudioDirectoryWatcher;
-import com.egleey.service.webradio.MediaStreamVLCPlayer;
+import com.egleey.service.webradio.LibshoutStreamPlayer;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
-import static com.egleey.config.Parameters.CURRENT_HOST_ADDRESS;
-import static com.egleey.config.Parameters.SOCKET_IO_SERVER_PORT;
+import java.util.ArrayList;
+
 import static com.egleey.service.webradio.AudioDirectoryWatcher.AUDIO_DIRECTORY_ROOT;
 
 @org.springframework.context.annotation.Configuration
@@ -29,19 +30,24 @@ public class SocketIOConfig {
     public static final String NAMESPACE_USER = "/user";
 
     private AudioDirectoryWatcher audioDirectoryWatcher;
-    private MediaStreamVLCPlayer mediaStreamVLCPlayer;
+    private ArrayList<LibshoutStreamPlayer> libshoutStreamPlayers;
+
+    @Value("${socket.netty-io.host}")
+    public String SOCKET_HOST;
+    @Value("${socket.netty-io.port}")
+    public Integer SOCKET_PORT;
 
     @Autowired
-    public SocketIOConfig(AudioDirectoryWatcher audioDirectoryWatcher, MediaStreamVLCPlayer mediaStreamVLCPlayer) {
+    public SocketIOConfig(AudioDirectoryWatcher audioDirectoryWatcher, ArrayList<LibshoutStreamPlayer> libshoutPlayers) {
         this.audioDirectoryWatcher = audioDirectoryWatcher;
-        this.mediaStreamVLCPlayer = mediaStreamVLCPlayer;
+        this.libshoutStreamPlayers = libshoutPlayers;
     }
 
     @Bean
     public SocketIOServer socketIoServer() {
         Configuration config = new Configuration();
-        config.setHostname(CURRENT_HOST_ADDRESS);
-        config.setPort(SOCKET_IO_SERVER_PORT);
+        config.setHostname(SOCKET_HOST);
+        config.setPort(SOCKET_PORT);
         SocketIOServer server = new SocketIOServer(config);
         server.addNamespace(NAMESPACE_ADMIN);
         server.addNamespace(NAMESPACE_USER);
@@ -62,9 +68,9 @@ public class SocketIOConfig {
                 Object.class, new AudioDirectoryDispatcher(audioDirectoryWatcher));
 
         adminNamespace.addEventListener(SOCKET_SERVER_EVENT_AUDIO_STREAM_DISPATCH,
-                MediaRequest.class, new MediaDispatcher(mediaStreamVLCPlayer, AUDIO_DIRECTORY_ROOT, server));
+                MediaRequest.class, new MediaDispatcher(libshoutStreamPlayers, AUDIO_DIRECTORY_ROOT, server));
 
         adminNamespace.addEventListener(SOCKET_SERVER_EVENT_WEB_RADIO_STATE,
-                Object.class, new WebRadioCurrentState(mediaStreamVLCPlayer));
+                Object.class, new WebRadioCurrentState(libshoutStreamPlayers));
     }
 }

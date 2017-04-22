@@ -109,10 +109,5 @@ define(["jquery", "parameters", "modules/audio_dispatcher/codes"], function($, p
         }
     });
 
-    body.on("dblclick", ".player-filesystem-row-directory", function(e) {
-        const target = $(e.currentTarget);
-        player.filesystem.set_current_path(target.data("path"));
-    });
-
     return player;
 });

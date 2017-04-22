@@ -36,8 +36,9 @@ dependencies {
 //	compile 'org.springframework.boot:spring-boot-starter-cache'
 	compile 'org.springframework.boot:spring-boot-starter-jersey'
     compile 'org.springframework.boot:spring-boot-starter-web'
-    compile "org.springframework.boot:spring-boot-starter-tomcat"
-	compile "org.springframework.boot:spring-boot-devtools"
+    compile 'org.springframework.boot:spring-boot-starter-tomcat'
+	compile 'org.springframework.boot:spring-boot-devtools'
+    optional 'org.springframework.boot:spring-boot-configuration-processor'
 //	compile 'org.springframework.boot:spring-boot-starter-security'
 //	compile 'org.springframework.session:spring-session'
 
@@ -74,4 +75,8 @@ dependencies {
 
 	runtime 'org.springframework.boot:spring-boot-devtools'
 	testCompile 'org.springframework.boot:spring-boot-starter-test'
+
+    compile fileTree(dir: 'com/egleey/util/icecast/libshout/icecast.native', include: ['.so'])
 }
+
+compileJava.dependsOn(processResources)

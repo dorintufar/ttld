@@ -1,6 +1,6 @@
 // For any third party dependencies, like jQuery, place them in the lib folder.
 
-// Configure loading modules from the lib directory,
+// Configure loading modules from the native directory,
 // except for 'app' ones, which are in a sibling
 // directory.
 requirejs.config({
@@ -12,7 +12,8 @@ requirejs.config({
         "io" : "../../../vendor/socket.io-1.3.7/socket.io-1.3.7.min",
         "md5" : "../../util/md5.min",
 
-        "parameters" : "config/parameters"
+        "parameters" : "config/parameters",
+        "os_meta" : "config/os_meta"
     },
 
     "shim" : {

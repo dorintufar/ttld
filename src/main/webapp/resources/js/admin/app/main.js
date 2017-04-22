@@ -7,7 +7,8 @@ define(function (require) {
     const socket_events = require("modules/socket_events");
 
     const player = require("modules/player");
-    const player_file_upload_form = require("modules/player_file_upload_form");
+    const player_file_upload_form = require("modules/form/player_file_upload_form");
+    const player_create_directory_form = require("modules/form/player_create_directory_form");
 
     socket_events.register(socket, filesystem, player);
     player.set_filesystem(filesystem);

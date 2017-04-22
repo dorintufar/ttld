@@ -11,10 +11,12 @@ define([
     "jquery.bootstrap",
     "underscore",
     "parameters",
+    "os_meta",
     "modules/renderer/directory",
     "modules/renderer/directory_segment",
     "modules/renderer/file"
-], function($, bootstrap, _, parameters, renderer_directory, renderer_directory_segment, renderer_file) {
+], function($, bootstrap, _, parameters, os_meta, renderer_directory, renderer_directory_segment, renderer_file) {
+    const body = $("body");
     const path_input = $(".filesystem-path");
 
     const directory_up = $(".filesystem-directory-up");
@@ -87,7 +89,7 @@ define([
                     this._delete_from_map(pieces);
                     if (path === this.path_current) {
                         pieces.pop();
-                        this.set_current_path(pieces.join("/"));
+                        this.set_current_path(pieces.join(os_meta.file_separator));
                     }
                     this._clean_and_render_current();
                     break;
@@ -97,7 +99,7 @@ define([
         _find(path) {
             var segment = this.map.children;
             if (path.length > 0) {
-                const pieces = path.split("/");
+                const pieces = path.split(os_meta.file_separator);
 
                 for (var i = 0; i < pieces.length; i++) {
                     if (typeof segment[pieces[i]] === "undefined") {
@@ -118,7 +120,7 @@ define([
             var $current_container = this.current_container;
 
             const $path_current = this.path_current + (
-                this.path_current[this.path_current.length] === "/" || this.path_current.length === 0  ? "" : "/"
+                this.path_current[this.path_current.length] === os_meta.file_separator || this.path_current.length === 0  ? "" : os_meta.file_separator
             );
 
             const root_and_current = parameters.audio_resources_root + $path_current;
@@ -186,7 +188,7 @@ define([
         if(code === 13) { //Enter keycode
             var path = path_input.val();
 
-            if (path[path.length] === "/") {
+            if (path[path.length] === os_meta.file_separator) {
                 path = path.substr(0, path.length - 1);
             }
 
@@ -199,9 +201,9 @@ define([
         //     return;
         // }
 
-        var pieces = path_input.val().split("/");
+        var pieces = path_input.val().split(os_meta.file_separator);
         pieces.pop();
-        filesystem.set_current_path(pieces.join("/"));
+        filesystem.set_current_path(pieces.join(os_meta.file_separator));
     });
 
     directory_new.on("click", function () {
@@ -218,6 +220,11 @@ define([
         // }
 
         file_new_modal.modal("show");
+    });
+
+    body.on("dblclick", ".player-filesystem-row-directory", function(e) {
+        const target = $(e.currentTarget);
+        filesystem.set_current_path(target.data("path"));
     });
 
     return filesystem;

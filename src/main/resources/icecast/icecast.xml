@@ -1,0 +1,67 @@
+<icecast>
+    <!-- location and admin are two arbitrary strings that are e.g. visible
+         on the server info page of the icecast web interface
+         (server_version.xsl). -->
+    <location>TTLD Radio</location>
+    <admin>tufardorin@gmail.com</admin>
+    <hostname>192.168.0.106</hostname>
+    <fileserve>1</fileserve>
+
+    <!-- IMPORTANT!
+         Especially for inexperienced users:
+         Start out by ONLY changing all passwords and restarting Icecast.
+         For detailed setup instructions please refer to the documentation.
+         It's also available here: http://icecast.org/docs/
+    -->
+    <limits>
+        <clients>100</clients>
+        <sources>2</sources>
+        <queue-size>524288</queue-size>
+        <client-timeout>30</client-timeout>
+        <source-timeout>10</source-timeout>
+        <burst-size>65535</burst-size>
+    </limits>
+
+    <authentication>
+        <source-password>test</source-password>
+        <relay-password>test</relay-password>
+
+        <admin-user>test</admin-user>
+        <admin-password>test</admin-password>
+    </authentication>
+
+    <listen-socket>
+        <port>5000</port>
+    </listen-socket>
+
+    <http-headers>
+        <header name="Access-Control-Allow-Origin" value="*" />
+        <header name="Accept-Ranges" value="none" />
+        <header name="Cache-Control" value="no-store" />
+        <header name="Connection" value="close" />
+        <header name="Content-Type" value="audio-mpeg" />
+    </http-headers>
+
+    <paths>
+        <logdir>/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast</logdir>
+        <webroot>/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast</webroot>
+        <adminroot>/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast</adminroot>
+
+        <alias source="/" destination="/status.xsl"/>
+    </paths>
+
+    <logging>
+        <accesslog>access.log</accesslog>
+        <errorlog>error.log</errorlog>
+        <loglevel>3</loglevel> <!-- 4 Debug, 3 Info, 2 Warn, 1 Error -->
+        <logsize>10000</logsize>
+    </logging>
+
+    <security>
+        <chroot>0</chroot>
+        <!--<changeowner>-->
+            <!--<user>radio</user>-->
+            <!--<group>radio</group>-->
+        <!--</changeowner>-->
+    </security>
+</icecast>

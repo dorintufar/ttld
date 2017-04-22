@@ -24,22 +24,22 @@ public class MediaStreamVLCPlayer extends MediaPlayerEventAdapter {
     private static final String DESCRIPTOR_ID = "id";
 
     public MediaStreamVLCPlayer(String serverAddress, int serverPort) {
-        String opts = formatHttpStream();
-        this.currentPlaying = "";
-        this.currentPlayingId = "";
-        this.currentPlayingTime = 0;
-        this.currentState = new JsonObject();
-        this.address = serverAddress;
-        this.port = serverPort;
-
-        MediaPlayerFactory mediaPlayerFactory = new MediaPlayerFactory(
-                String.format("--http-host=%s", serverAddress),
-                String.format("--http-port=%d", serverPort));
-        this.mediaPlayer = mediaPlayerFactory.newHeadlessMediaPlayer();
-        this.mediaPlayer.setStandardMediaOptions(opts);
-        this.mediaPlayer.addMediaPlayerEventListener(this);
-
-        mute();
+//        String opts = formatHttpStream();
+//        this.currentPlaying = "";
+//        this.currentPlayingId = "";
+//        this.currentPlayingTime = 0;
+//        this.currentState = new JsonObject();
+//        this.address = serverAddress;
+//        this.port = serverPort;
+//
+//        MediaPlayerFactory mediaPlayerFactory = new MediaPlayerFactory(
+//                String.format("--http-SOCKET_HOST=%s", serverAddress),
+//                String.format("--http-SOCKET_PORT=%d", serverPort));
+//        this.mediaPlayer = mediaPlayerFactory.newHeadlessMediaPlayer();
+//        this.mediaPlayer.setStandardMediaOptions(opts);
+//        this.mediaPlayer.addMediaPlayerEventListener(this);
+//
+//        mute();
     }
 
     public void play(String media, String id) {

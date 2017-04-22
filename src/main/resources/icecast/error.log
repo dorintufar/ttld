@@ -1,0 +1,1800 @@
+[2017-04-20  11:52:41] INFO main/main Icecast 2.3.2 server started
+[2017-04-20  11:52:41] INFO fserve/fserv_thread_function file serving thread started
+[2017-04-20  11:52:41] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  11:52:41] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  11:53:09] INFO fserve/fserve_client_create checking for file / (/home/moonwalker/programming/workspace/ttld/src/main/shoutcast/)
+[2017-04-20  11:53:09] WARN fserve/fserve_client_create found requested file but there is no handler for it: /home/moonwalker/programming/workspace/ttld/src/main/shoutcast/
+[2017-04-20  11:53:14] INFO fserve/fserve_client_create checking for file /admin (/home/moonwalker/programming/workspace/ttld/src/main/shoutcast/admin)
+[2017-04-20  11:53:14] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/shoutcast/admin" No such file or directory
+[2017-04-20  11:53:19] INFO fserve/fserve_client_create checking for file / (/home/moonwalker/programming/workspace/ttld/src/main/shoutcast/)
+[2017-04-20  11:53:19] WARN fserve/fserve_client_create found requested file but there is no handler for it: /home/moonwalker/programming/workspace/ttld/src/main/shoutcast/
+[2017-04-20  11:53:27] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio"
+[2017-04-20  11:53:27] INFO connection/_handle_source_request Source (/ttldradio) attempted to login with invalid or missing password
+[2017-04-20  11:53:38] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio"
+[2017-04-20  11:53:39] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-20  11:53:45] INFO fserve/fserve_client_create checking for file / (/home/moonwalker/programming/workspace/ttld/src/main/shoutcast/)
+[2017-04-20  11:53:45] WARN fserve/fserve_client_create found requested file but there is no handler for it: /home/moonwalker/programming/workspace/ttld/src/main/shoutcast/
+[2017-04-20  11:53:51] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-20  11:53:57] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-20  11:53:57] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-20  11:54:14] INFO source/get_next_buffer End of Stream /ttldradio
+[2017-04-20  11:54:14] INFO source/source_shutdown Source "/ttldradio" exiting
+[2017-04-20  11:54:50] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/shoutcast/ttldradio)
+[2017-04-20  11:54:50] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/shoutcast/ttldradio" No such file or directory
+[2017-04-20  11:56:42] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  11:56:42] INFO main/main Shutting down
+[2017-04-20  11:56:42] INFO fserve/fserve_shutdown file serving thread stopped
+[2017-04-20  11:56:42] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  11:56:42] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  11:56:42] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  11:56:42] INFO yp/yp_shutdown YP thread down
+[2017-04-20  11:56:42] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  12:44:17] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  12:44:17] INFO yp/yp_recheck_config Adding new YP server "192.168.0.106:8000" (timeout 6s, default interval 30s)
+[2017-04-20  12:44:17] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  12:44:17] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  12:44:25] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  12:44:25] INFO main/main Shutting down
+[2017-04-20  12:44:25] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  12:44:25] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  12:44:25] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  12:44:25] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  12:44:25] INFO yp/yp_shutdown YP thread down
+[2017-04-20  12:44:25] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  12:44:32] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  12:44:32] INFO yp/yp_recheck_config Adding new YP server "192.168.0.106:8000" (timeout 6s, default interval 30s)
+[2017-04-20  12:44:32] INFO stats/_stats_thread stats thread started
+[2017-04-20  12:44:32] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  12:44:32] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  12:44:39] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-20  12:44:39] INFO connection/_handle_source_request Source (/ttldradio) attempted to login with invalid or missing password
+[2017-04-20  12:44:56] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-20  12:44:56] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-20  12:44:56] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-20  12:45:06] WARN xslt/xslt_get_stylesheet Error checking for stylesheet file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/status.xsl": No such file or directory
+[2017-04-20  12:45:06] EROR xslt/xslt_transform problem reading stylesheet "/home/moonwalker/programming/workspace/ttld/src/main/icecast/status.xsl"
+[2017-04-20  12:45:13] INFO fserve/fserve_client_create checking for file /testttld (/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld)
+[2017-04-20  12:45:13] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld" No such file or directory
+[2017-04-20  12:45:33] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  12:45:33] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-20  12:45:33] INFO main/main Shutting down
+[2017-04-20  12:45:33] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  12:45:34] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  12:45:34] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  12:45:34] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  12:45:34] INFO yp/yp_shutdown YP thread down
+[2017-04-20  12:45:34] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  12:46:30] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  12:46:30] INFO yp/yp_recheck_config Adding new YP server "192.168.0.106:8000" (timeout 6s, default interval 30s)
+[2017-04-20  12:46:30] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  12:46:30] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  12:46:43] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  12:46:43] INFO main/main Shutting down
+[2017-04-20  12:46:43] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  12:46:44] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  12:46:44] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  12:46:44] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  12:46:44] INFO yp/yp_shutdown YP thread down
+[2017-04-20  12:46:44] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  12:47:01] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  12:47:01] INFO yp/yp_recheck_config Adding new YP server "192.168.0.106:8000" (timeout 6s, default interval 30s)
+[2017-04-20  12:47:01] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  12:47:01] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  12:47:10] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  12:47:10] INFO main/main Shutting down
+[2017-04-20  12:47:10] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  12:47:10] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  12:47:10] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  12:47:10] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  12:47:10] INFO yp/yp_shutdown YP thread down
+[2017-04-20  12:47:11] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  12:47:12] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  12:47:12] INFO yp/yp_recheck_config Adding new YP server "192.168.0.106:8000" (timeout 6s, default interval 30s)
+[2017-04-20  12:47:12] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  12:47:12] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  12:47:18] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  12:47:18] INFO main/main Shutting down
+[2017-04-20  12:47:18] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  12:47:19] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  12:47:19] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  12:47:19] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  12:47:19] INFO yp/yp_shutdown YP thread down
+[2017-04-20  12:47:19] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  12:47:27] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  12:47:27] INFO yp/yp_recheck_config Adding new YP server "192.168.0.106:8000" (timeout 6s, default interval 30s)
+[2017-04-20  12:47:27] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  12:47:27] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  12:47:29] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  12:47:29] INFO main/main Shutting down
+[2017-04-20  12:47:29] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  12:47:30] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  12:47:30] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  12:47:30] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  12:47:30] INFO yp/yp_shutdown YP thread down
+[2017-04-20  12:47:31] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  12:48:24] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  12:48:24] INFO yp/yp_recheck_config Adding new YP server "192.168.0.106:8000" (timeout 6s, default interval 30s)
+[2017-04-20  12:48:24] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  12:48:24] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  12:48:29] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-20  12:48:29] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-20  12:48:29] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-20  12:48:34] INFO fserve/fserve_client_create checking for file /testttld (/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld)
+[2017-04-20  12:48:34] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld" No such file or directory
+[2017-04-20  12:48:35] INFO fserve/fserve_client_create checking for file /testttld (/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld)
+[2017-04-20  12:48:35] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld" No such file or directory
+[2017-04-20  12:48:35] INFO fserve/fserve_client_create checking for file /testttld (/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld)
+[2017-04-20  12:48:35] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld" No such file or directory
+[2017-04-20  12:48:36] INFO fserve/fserve_client_create checking for file /testttld (/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld)
+[2017-04-20  12:48:36] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld" No such file or directory
+[2017-04-20  12:48:36] INFO fserve/fserve_client_create checking for file /testttld (/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld)
+[2017-04-20  12:48:36] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld" No such file or directory
+[2017-04-20  12:48:36] INFO fserve/fserve_client_create checking for file /testttld (/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld)
+[2017-04-20  12:48:36] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld" No such file or directory
+[2017-04-20  12:48:36] INFO fserve/fserve_client_create checking for file /testttld (/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld)
+[2017-04-20  12:48:36] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld" No such file or directory
+[2017-04-20  12:48:36] INFO fserve/fserve_client_create checking for file /testttld (/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld)
+[2017-04-20  12:48:36] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld" No such file or directory
+[2017-04-20  12:48:37] INFO fserve/fserve_client_create checking for file /testttld (/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld)
+[2017-04-20  12:48:37] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld" No such file or directory
+[2017-04-20  12:48:37] INFO fserve/fserve_client_create checking for file /testttld (/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld)
+[2017-04-20  12:48:37] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld" No such file or directory
+[2017-04-20  12:48:37] INFO fserve/fserve_client_create checking for file /testttld (/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld)
+[2017-04-20  12:48:37] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld" No such file or directory
+[2017-04-20  12:48:37] INFO fserve/fserve_client_create checking for file /testttld (/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld)
+[2017-04-20  12:48:37] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld" No such file or directory
+[2017-04-20  12:48:37] INFO fserve/fserve_client_create checking for file /testttld (/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld)
+[2017-04-20  12:48:37] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/testttld" No such file or directory
+[2017-04-20  12:48:48] INFO fserve/fserve_client_create checking for file /admin (/home/moonwalker/programming/workspace/ttld/src/main/icecast/admin)
+[2017-04-20  12:48:48] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/admin" No such file or directory
+[2017-04-20  12:48:52] INFO admin/admin_handle_request Bad or missing password on admin command request (command: stats.xsl)
+[2017-04-20  12:49:02] INFO admin/admin_handle_request Bad or missing password on admin command request (command: stats.xsl)
+[2017-04-20  12:49:35] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  12:49:35] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-20  12:49:35] INFO main/main Shutting down
+[2017-04-20  12:49:35] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  12:49:35] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  12:49:35] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  12:49:35] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  12:49:35] INFO yp/yp_shutdown YP thread down
+[2017-04-20  12:49:35] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  12:49:37] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  12:49:37] INFO yp/yp_recheck_config Adding new YP server "192.168.0.106:8000" (timeout 6s, default interval 30s)
+[2017-04-20  12:49:37] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  12:49:37] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  12:49:43] INFO admin/admin_handle_request Bad or missing password on admin command request (command: stats.xsl)
+[2017-04-20  12:49:48] WARN xslt/xslt_get_stylesheet Error checking for stylesheet file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/stats.xsl": No such file or directory
+[2017-04-20  12:49:48] EROR xslt/xslt_transform problem reading stylesheet "/home/moonwalker/programming/workspace/ttld/src/main/icecast/stats.xsl"
+[2017-04-20  12:50:05] WARN xslt/xslt_get_stylesheet Error checking for stylesheet file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/status.xsl": No such file or directory
+[2017-04-20  12:50:05] EROR xslt/xslt_transform problem reading stylesheet "/home/moonwalker/programming/workspace/ttld/src/main/icecast/status.xsl"
+[2017-04-20  12:50:12] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio)
+[2017-04-20  12:50:12] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio" No such file or directory
+[2017-04-20  12:50:49] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  12:50:49] INFO main/main Shutting down
+[2017-04-20  12:50:49] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  12:50:50] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  12:50:50] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  12:50:50] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  12:50:50] INFO yp/yp_shutdown YP thread down
+[2017-04-20  12:50:51] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  12:50:52] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  12:50:52] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  12:50:52] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  12:50:53] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  12:50:53] INFO main/main Shutting down
+[2017-04-20  12:50:53] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  12:50:54] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  12:50:54] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  12:50:54] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  12:50:54] INFO yp/yp_shutdown YP thread down
+[2017-04-20  12:50:54] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  12:50:59] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  12:50:59] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  12:50:59] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  12:50:59] INFO stats/_stats_thread stats thread started
+[2017-04-20  12:51:00] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  12:51:00] INFO main/main Shutting down
+[2017-04-20  12:51:00] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  12:51:01] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  12:51:01] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  12:51:01] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  12:51:01] INFO yp/yp_shutdown YP thread down
+[2017-04-20  12:51:01] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  12:52:19] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  12:52:19] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  12:52:19] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  12:52:29] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  12:52:29] INFO main/main Shutting down
+[2017-04-20  12:52:29] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  12:52:29] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  12:52:29] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  12:52:29] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  12:52:29] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  12:52:29] INFO yp/yp_shutdown YP thread down
+[2017-04-20  12:52:30] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  13:00:52] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  13:00:52] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  13:00:52] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  13:01:16] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio)
+[2017-04-20  13:01:16] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio" No such file or directory
+[2017-04-20  13:01:16] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio)
+[2017-04-20  13:01:16] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio" No such file or directory
+[2017-04-20  13:01:17] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio)
+[2017-04-20  13:01:17] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio" No such file or directory
+[2017-04-20  13:01:17] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio)
+[2017-04-20  13:01:17] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio" No such file or directory
+[2017-04-20  13:01:17] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio)
+[2017-04-20  13:01:17] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio" No such file or directory
+[2017-04-20  13:01:17] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio)
+[2017-04-20  13:01:17] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio" No such file or directory
+[2017-04-20  13:01:22] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-20  13:01:22] INFO connection/_handle_source_request Source (/ttldradio) attempted to login with invalid or missing password
+[2017-04-20  13:01:32] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio)
+[2017-04-20  13:01:32] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio" No such file or directory
+[2017-04-20  13:01:34] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio)
+[2017-04-20  13:01:34] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio" No such file or directory
+[2017-04-20  13:01:35] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio)
+[2017-04-20  13:01:35] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio" No such file or directory
+[2017-04-20  13:01:35] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio)
+[2017-04-20  13:01:35] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio" No such file or directory
+[2017-04-20  13:01:35] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio)
+[2017-04-20  13:01:35] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio" No such file or directory
+[2017-04-20  13:01:35] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio)
+[2017-04-20  13:01:35] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio" No such file or directory
+[2017-04-20  13:01:41] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-20  13:01:41] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-20  13:01:41] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-20  13:01:47] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-20  13:02:31] INFO source/source_main listener count on /ttldradio now 2
+[2017-04-20  13:02:31] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-20  13:02:36] INFO source/source_main listener count on /ttldradio now 2
+[2017-04-20  13:02:36] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-20  13:02:37] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico)
+[2017-04-20  13:02:37] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico" No such file or directory
+[2017-04-20  13:03:53] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico)
+[2017-04-20  13:03:53] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico" No such file or directory
+[2017-04-20  13:05:48] INFO source/get_next_buffer End of Stream /ttldradio
+[2017-04-20  13:05:48] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-20  13:05:48] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-20  13:06:05] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio)
+[2017-04-20  13:06:05] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/ttldradio" No such file or directory
+[2017-04-20  13:06:05] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico)
+[2017-04-20  13:06:05] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico" No such file or directory
+[2017-04-20  14:27:11] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-20  14:27:11] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-20  14:27:11] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-20  14:27:15] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-20  14:27:15] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico)
+[2017-04-20  14:27:15] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico" No such file or directory
+[2017-04-20  14:29:49] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico)
+[2017-04-20  14:29:49] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico" No such file or directory
+[2017-04-20  14:29:49] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico)
+[2017-04-20  14:29:49] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico" No such file or directory
+[2017-04-20  14:31:18] INFO source/get_next_buffer End of Stream /ttldradio
+[2017-04-20  14:31:18] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-20  14:31:18] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-20  17:34:20] INFO fserve/fserve_client_create checking for file /played.html (/home/moonwalker/programming/workspace/ttld/src/main/icecast/played.html)
+[2017-04-20  17:34:20] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/played.html" No such file or directory
+[2017-04-20  17:34:20] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico)
+[2017-04-20  17:34:20] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico" No such file or directory
+[2017-04-20  17:34:28] INFO fserve/fserve_client_create checking for file /played.html (/home/moonwalker/programming/workspace/ttld/src/main/icecast/played.html)
+[2017-04-20  17:34:28] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/played.html" No such file or directory
+[2017-04-20  17:34:28] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico)
+[2017-04-20  17:34:28] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico" No such file or directory
+[2017-04-20  17:35:02] WARN xslt/xslt_get_stylesheet Error checking for stylesheet file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/status.xsl": No such file or directory
+[2017-04-20  17:35:02] EROR xslt/xslt_transform problem reading stylesheet "/home/moonwalker/programming/workspace/ttld/src/main/icecast/status.xsl"
+[2017-04-20  17:35:02] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico)
+[2017-04-20  17:35:02] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico" No such file or directory
+[2017-04-20  17:35:07] INFO fserve/fserve_client_create checking for file /index.html (/home/moonwalker/programming/workspace/ttld/src/main/icecast/index.html)
+[2017-04-20  17:35:07] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/index.html" No such file or directory
+[2017-04-20  17:35:07] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico)
+[2017-04-20  17:35:07] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico" No such file or directory
+[2017-04-20  17:40:03] INFO fserve/fserve_client_create checking for file /index.html (/home/moonwalker/programming/workspace/ttld/src/main/icecast/index.html)
+[2017-04-20  17:40:03] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/index.html" No such file or directory
+[2017-04-20  17:40:03] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico)
+[2017-04-20  17:40:03] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico" No such file or directory
+[2017-04-20  17:40:07] WARN xslt/xslt_get_stylesheet Error checking for stylesheet file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/status.xsl": No such file or directory
+[2017-04-20  17:40:07] EROR xslt/xslt_transform problem reading stylesheet "/home/moonwalker/programming/workspace/ttld/src/main/icecast/status.xsl"
+[2017-04-20  17:40:07] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico)
+[2017-04-20  17:40:07] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico" No such file or directory
+[2017-04-20  17:40:16] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-20  17:40:16] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-20  17:40:16] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-20  17:40:19] WARN xslt/xslt_get_stylesheet Error checking for stylesheet file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/status.xsl": No such file or directory
+[2017-04-20  17:40:19] EROR xslt/xslt_transform problem reading stylesheet "/home/moonwalker/programming/workspace/ttld/src/main/icecast/status.xsl"
+[2017-04-20  17:40:19] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico)
+[2017-04-20  17:40:19] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico" No such file or directory
+[2017-04-20  17:40:21] WARN xslt/xslt_get_stylesheet Error checking for stylesheet file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/status.xsl": No such file or directory
+[2017-04-20  17:40:21] EROR xslt/xslt_transform problem reading stylesheet "/home/moonwalker/programming/workspace/ttld/src/main/icecast/status.xsl"
+[2017-04-20  17:40:21] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico)
+[2017-04-20  17:40:21] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico" No such file or directory
+[2017-04-20  17:40:24] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-20  17:40:25] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico)
+[2017-04-20  17:40:25] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/icecast/favicon.ico" No such file or directory
+[2017-04-20  17:40:51] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  17:40:51] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-20  17:40:51] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-20  17:40:51] INFO main/main Shutting down
+[2017-04-20  17:40:51] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  17:40:52] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  17:40:52] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  17:40:52] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  17:40:52] INFO yp/yp_shutdown YP thread down
+[2017-04-20  17:40:52] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  17:55:00] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  17:55:00] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  17:55:00] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  17:55:25] WARN xslt/xslt_get_stylesheet Error checking for stylesheet file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/status.xsl": No such file or directory
+[2017-04-20  17:55:25] EROR xslt/xslt_transform problem reading stylesheet "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/status.xsl"
+[2017-04-20  17:55:25] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-20  17:55:25] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-20  17:55:34] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  17:55:34] INFO main/main Shutting down
+[2017-04-20  17:55:34] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  17:55:34] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  17:55:34] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  17:55:34] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  17:55:34] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  17:55:34] INFO yp/yp_shutdown YP thread down
+[2017-04-20  17:55:35] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  18:05:17] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  18:05:17] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  18:05:17] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  18:05:21] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  18:05:21] INFO main/main Shutting down
+[2017-04-20  18:05:21] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  18:05:21] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  18:05:21] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  18:05:21] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  18:05:21] INFO yp/yp_shutdown YP thread down
+[2017-04-20  18:05:22] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  19:07:32] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  19:07:32] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  19:07:32] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  19:07:37] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  19:07:37] INFO main/main Shutting down
+[2017-04-20  19:07:37] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  19:07:37] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  19:07:38] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  19:07:38] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  19:07:38] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  19:07:38] INFO yp/yp_shutdown YP thread down
+[2017-04-20  19:07:38] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  20:51:26] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  20:51:26] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  20:51:26] INFO stats/_stats_thread stats thread started
+[2017-04-20  20:51:26] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  20:55:29] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  20:55:29] INFO main/main Shutting down
+[2017-04-20  20:55:29] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  20:55:29] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  20:55:30] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  20:55:30] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  20:55:30] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  20:55:30] INFO yp/yp_shutdown YP thread down
+[2017-04-20  20:55:31] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  20:59:52] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  20:59:52] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  20:59:52] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  21:00:45] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  21:00:45] INFO main/main Shutting down
+[2017-04-20  21:00:45] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  21:00:45] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  21:00:45] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  21:00:45] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  21:00:45] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  21:00:45] INFO yp/yp_shutdown YP thread down
+[2017-04-20  21:00:46] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  21:01:03] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  21:01:03] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  21:01:03] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  21:01:16] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  21:01:16] INFO main/main Shutting down
+[2017-04-20  21:01:16] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  21:01:16] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  21:01:17] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  21:01:17] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  21:01:17] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  21:01:17] INFO yp/yp_shutdown YP thread down
+[2017-04-20  21:01:17] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  21:03:37] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  21:03:37] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  21:03:37] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  21:03:37] INFO stats/_stats_thread stats thread started
+[2017-04-20  21:06:57] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  21:06:57] INFO main/main Shutting down
+[2017-04-20  21:06:57] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  21:06:57] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  21:06:57] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  21:06:57] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  21:06:57] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  21:06:57] INFO yp/yp_shutdown YP thread down
+[2017-04-20  21:06:57] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  21:07:13] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  21:07:13] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  21:07:13] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  21:07:55] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  21:07:55] INFO main/main Shutting down
+[2017-04-20  21:07:55] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  21:07:55] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  21:07:56] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  21:07:56] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  21:07:56] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  21:07:56] INFO yp/yp_shutdown YP thread down
+[2017-04-20  21:07:56] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  21:08:10] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  21:08:10] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  21:08:10] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  21:36:11] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  21:36:11] INFO main/main Shutting down
+[2017-04-20  21:36:11] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  21:36:11] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  21:36:12] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  21:36:12] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  21:36:12] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  21:36:12] INFO yp/yp_shutdown YP thread down
+[2017-04-20  21:36:12] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  21:36:58] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  21:36:58] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  21:36:58] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  21:37:09] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  21:37:09] INFO main/main Shutting down
+[2017-04-20  21:37:09] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  21:37:09] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  21:37:09] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  21:37:09] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  21:37:09] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  21:37:09] INFO yp/yp_shutdown YP thread down
+[2017-04-20  21:37:10] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  21:41:12] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  21:41:12] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  21:41:12] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  21:46:16] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  21:46:16] INFO main/main Shutting down
+[2017-04-20  21:46:16] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  21:46:16] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  21:46:17] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  21:46:17] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  21:46:17] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  21:46:17] INFO yp/yp_shutdown YP thread down
+[2017-04-20  21:46:17] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  21:46:31] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  21:46:31] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  21:46:31] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  21:48:58] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  21:48:58] INFO main/main Shutting down
+[2017-04-20  21:48:58] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  21:48:58] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  21:48:59] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  21:48:59] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  21:48:59] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  21:48:59] INFO yp/yp_shutdown YP thread down
+[2017-04-20  21:48:59] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  21:49:13] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  21:49:13] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  21:49:13] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  22:00:17] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  22:00:17] INFO main/main Shutting down
+[2017-04-20  22:00:17] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  22:00:17] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  22:00:18] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  22:00:18] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  22:00:18] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  22:00:18] INFO yp/yp_shutdown YP thread down
+[2017-04-20  22:00:19] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  22:55:31] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  22:55:31] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  22:55:31] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  22:56:07] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  22:56:07] INFO main/main Shutting down
+[2017-04-20  22:56:07] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  22:56:07] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  22:56:08] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  22:56:08] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  22:56:08] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  22:56:08] INFO yp/yp_shutdown YP thread down
+[2017-04-20  22:56:09] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  22:56:25] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  22:56:25] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  22:56:25] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  22:56:25] INFO stats/_stats_thread stats thread started
+[2017-04-20  23:10:37] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  23:10:37] INFO main/main Shutting down
+[2017-04-20  23:10:37] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  23:10:37] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  23:10:37] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  23:10:37] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  23:10:37] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  23:10:38] INFO yp/yp_shutdown YP thread down
+[2017-04-20  23:10:38] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  23:10:53] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  23:10:53] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  23:10:53] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  23:11:26] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  23:11:26] INFO main/main Shutting down
+[2017-04-20  23:11:26] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  23:11:26] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  23:11:26] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  23:11:26] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  23:11:26] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  23:11:26] INFO yp/yp_shutdown YP thread down
+[2017-04-20  23:11:27] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  23:11:42] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  23:11:42] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  23:11:42] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  23:11:42] INFO stats/_stats_thread stats thread started
+[2017-04-20  23:13:46] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  23:13:46] INFO main/main Shutting down
+[2017-04-20  23:13:46] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  23:13:46] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  23:13:46] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  23:13:46] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  23:13:46] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  23:13:46] INFO yp/yp_shutdown YP thread down
+[2017-04-20  23:13:46] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  23:14:02] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  23:14:02] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  23:14:02] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  23:23:50] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  23:23:50] INFO main/main Shutting down
+[2017-04-20  23:23:50] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  23:23:50] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  23:23:51] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  23:23:51] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  23:23:51] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  23:23:51] INFO yp/yp_shutdown YP thread down
+[2017-04-20  23:23:51] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  23:25:57] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  23:25:57] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  23:25:57] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  23:26:19] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  23:26:19] INFO main/main Shutting down
+[2017-04-20  23:26:19] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  23:26:19] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  23:26:19] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  23:26:19] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  23:26:19] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  23:26:19] INFO yp/yp_shutdown YP thread down
+[2017-04-20  23:26:19] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  23:26:57] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  23:26:57] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  23:26:57] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  23:26:57] INFO stats/_stats_thread stats thread started
+[2017-04-20  23:40:35] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  23:40:35] INFO main/main Shutting down
+[2017-04-20  23:40:35] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  23:40:35] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  23:40:36] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  23:40:36] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  23:40:36] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  23:40:36] INFO yp/yp_shutdown YP thread down
+[2017-04-20  23:40:36] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  23:40:48] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  23:40:48] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  23:40:48] INFO stats/_stats_thread stats thread started
+[2017-04-20  23:40:48] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  23:41:08] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  23:41:08] INFO main/main Shutting down
+[2017-04-20  23:41:08] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  23:41:08] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  23:41:09] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  23:41:09] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  23:41:09] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  23:41:09] INFO yp/yp_shutdown YP thread down
+[2017-04-20  23:41:09] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  23:41:20] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  23:41:20] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  23:41:20] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  23:43:13] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  23:43:13] INFO main/main Shutting down
+[2017-04-20  23:43:13] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  23:43:13] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  23:43:13] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  23:43:13] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  23:43:13] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  23:43:13] INFO yp/yp_shutdown YP thread down
+[2017-04-20  23:43:14] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  23:43:29] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  23:43:29] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  23:43:29] INFO stats/_stats_thread stats thread started
+[2017-04-20  23:43:29] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  23:46:49] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  23:46:49] INFO main/main Shutting down
+[2017-04-20  23:46:49] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  23:46:49] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  23:46:50] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  23:46:50] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  23:46:50] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  23:46:50] INFO yp/yp_shutdown YP thread down
+[2017-04-20  23:46:50] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  23:58:23] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  23:58:23] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  23:58:23] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  23:58:43] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  23:58:43] INFO main/main Shutting down
+[2017-04-20  23:58:43] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  23:58:43] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  23:58:43] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  23:58:43] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  23:58:43] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  23:58:43] INFO yp/yp_shutdown YP thread down
+[2017-04-20  23:58:44] INFO stats/stats_shutdown stats thread finished
+[2017-04-20  23:58:54] INFO main/main Icecast 2.4.2 server started
+[2017-04-20  23:58:54] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-20  23:58:54] INFO yp/yp_update_thread YP update thread started
+[2017-04-20  23:58:54] INFO stats/_stats_thread stats thread started
+[2017-04-20  23:59:11] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-20  23:59:11] INFO main/main Shutting down
+[2017-04-20  23:59:11] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-20  23:59:11] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-20  23:59:12] INFO slave/_slave_thread shutting down current relays
+[2017-04-20  23:59:12] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-20  23:59:12] INFO auth/auth_shutdown Auth shutdown
+[2017-04-20  23:59:12] INFO yp/yp_shutdown YP thread down
+[2017-04-20  23:59:13] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  00:00:38] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  00:00:38] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  00:00:38] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  00:01:33] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  00:01:33] INFO main/main Shutting down
+[2017-04-21  00:01:33] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  00:01:33] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  00:01:33] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  00:01:33] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  00:01:33] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  00:01:33] INFO yp/yp_shutdown YP thread down
+[2017-04-21  00:01:33] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  00:01:45] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  00:01:45] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  00:01:45] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  00:01:45] INFO stats/_stats_thread stats thread started
+[2017-04-21  00:03:16] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  00:03:16] INFO main/main Shutting down
+[2017-04-21  00:03:16] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  00:03:16] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  00:03:16] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  00:03:16] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  00:03:16] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  00:03:16] INFO yp/yp_shutdown YP thread down
+[2017-04-21  00:03:17] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  00:03:27] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  00:03:27] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  00:03:27] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  00:05:24] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  00:05:24] INFO main/main Shutting down
+[2017-04-21  00:05:24] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  00:05:24] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  00:05:24] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  00:05:24] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  00:05:24] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  00:05:24] INFO yp/yp_shutdown YP thread down
+[2017-04-21  00:05:25] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  00:05:35] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  00:05:35] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  00:05:35] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  00:05:48] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  00:05:48] INFO main/main Shutting down
+[2017-04-21  00:05:48] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  00:05:48] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  00:05:48] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  00:05:48] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  00:05:48] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  00:05:48] INFO yp/yp_shutdown YP thread down
+[2017-04-21  00:05:49] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  00:05:59] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  00:05:59] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  00:05:59] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  00:06:57] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  00:06:57] INFO main/main Shutting down
+[2017-04-21  00:06:57] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  00:06:57] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  00:06:58] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  00:06:58] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  00:06:58] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  00:06:58] INFO yp/yp_shutdown YP thread down
+[2017-04-21  00:06:58] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  00:07:09] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  00:07:09] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  00:07:09] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  00:07:56] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  00:07:56] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  00:07:56] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  00:08:29] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  00:08:30] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-21  00:08:30] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-21  00:08:49] INFO source/get_next_buffer End of Stream /ttldradio
+[2017-04-21  00:08:49] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  00:08:49] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  00:08:58] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  00:08:58] INFO main/main Shutting down
+[2017-04-21  00:08:58] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  00:08:58] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  00:08:58] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  00:08:58] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  00:08:58] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  00:08:58] INFO yp/yp_shutdown YP thread down
+[2017-04-21  00:08:59] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  00:12:04] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  00:12:04] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  00:12:04] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  00:12:09] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  00:12:09] INFO main/main Shutting down
+[2017-04-21  00:12:09] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  00:12:09] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  00:12:09] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  00:12:09] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  00:12:09] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  00:12:09] INFO yp/yp_shutdown YP thread down
+[2017-04-21  00:12:10] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  00:14:16] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  00:14:16] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  00:14:16] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  00:14:16] INFO stats/_stats_thread stats thread started
+[2017-04-21  00:14:53] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  00:14:53] INFO main/main Shutting down
+[2017-04-21  00:14:53] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  00:14:53] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  00:14:53] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  00:14:53] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  00:14:53] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  00:14:53] INFO yp/yp_shutdown YP thread down
+[2017-04-21  00:14:54] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  00:15:03] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  00:15:03] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  00:15:03] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  11:42:15] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  11:42:15] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  11:42:15] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  11:49:17] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  11:49:17] INFO main/main Shutting down
+[2017-04-21  11:49:17] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  11:49:17] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  11:49:17] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  11:49:17] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  11:49:17] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  11:49:17] INFO yp/yp_shutdown YP thread down
+[2017-04-21  11:49:18] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  11:49:32] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  11:49:32] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  11:49:32] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  11:49:43] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  11:49:43] INFO main/main Shutting down
+[2017-04-21  11:49:43] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  11:49:43] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  11:49:43] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  11:49:43] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  11:49:43] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  11:49:43] INFO yp/yp_shutdown YP thread down
+[2017-04-21  11:49:44] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  11:58:30] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  11:58:30] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  11:58:30] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  11:58:35] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  11:58:35] INFO main/main Shutting down
+[2017-04-21  11:58:35] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  11:58:35] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  11:58:36] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  11:58:36] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  11:58:36] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  11:58:36] INFO yp/yp_shutdown YP thread down
+[2017-04-21  11:58:37] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  13:23:05] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  13:23:05] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  13:23:05] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  13:23:41] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  13:23:41] INFO main/main Shutting down
+[2017-04-21  13:23:41] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  13:23:41] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  13:23:41] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  13:23:41] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  13:23:41] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  13:23:41] INFO yp/yp_shutdown YP thread down
+[2017-04-21  13:23:41] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  13:26:27] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  13:26:27] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  13:26:27] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  13:27:01] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  13:27:01] INFO main/main Shutting down
+[2017-04-21  13:27:01] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  13:27:01] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  13:27:01] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  13:27:01] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  13:27:01] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  13:27:01] INFO yp/yp_shutdown YP thread down
+[2017-04-21  13:27:01] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  13:27:11] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  13:27:11] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  13:27:11] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  13:27:35] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  13:27:35] INFO main/main Shutting down
+[2017-04-21  13:27:35] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  13:27:35] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  13:27:36] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  13:27:36] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  13:27:36] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  13:27:36] INFO yp/yp_shutdown YP thread down
+[2017-04-21  13:27:37] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  13:27:47] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  13:27:47] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  13:27:47] INFO stats/_stats_thread stats thread started
+[2017-04-21  13:27:47] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  13:29:22] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  13:29:22] INFO main/main Shutting down
+[2017-04-21  13:29:22] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  13:29:22] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  13:29:23] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  13:29:23] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  13:29:23] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  13:29:23] INFO yp/yp_shutdown YP thread down
+[2017-04-21  13:29:24] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  13:29:33] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  13:29:33] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  13:29:33] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  13:29:53] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  13:29:53] INFO main/main Shutting down
+[2017-04-21  13:29:53] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  13:29:53] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  13:29:53] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  13:29:53] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  13:29:53] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  13:29:53] INFO yp/yp_shutdown YP thread down
+[2017-04-21  13:29:54] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  13:30:05] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  13:30:05] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  13:30:05] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  13:33:05] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  13:33:05] INFO main/main Shutting down
+[2017-04-21  13:33:05] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  13:33:05] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  13:33:06] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  13:33:06] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  13:33:06] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  13:33:06] INFO yp/yp_shutdown YP thread down
+[2017-04-21  13:33:06] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  13:33:17] INFO stats/_stats_thread stats thread started
+[2017-04-21  13:33:17] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  13:33:17] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  13:33:17] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  13:34:29] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  13:34:29] INFO main/main Shutting down
+[2017-04-21  13:34:29] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  13:34:29] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  13:34:29] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  13:34:29] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  13:34:29] INFO yp/yp_shutdown YP thread down
+[2017-04-21  13:34:29] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  13:34:29] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  13:46:19] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  13:46:19] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  13:46:19] INFO stats/_stats_thread stats thread started
+[2017-04-21  13:46:19] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  13:46:58] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  13:46:58] INFO main/main Shutting down
+[2017-04-21  13:46:58] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  13:46:58] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  13:46:59] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  13:46:59] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  13:46:59] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  13:46:59] INFO yp/yp_shutdown YP thread down
+[2017-04-21  13:47:00] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  13:48:26] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  13:48:26] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  13:48:26] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  13:49:10] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  13:49:10] INFO main/main Shutting down
+[2017-04-21  13:49:10] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  13:49:11] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  13:49:11] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  13:49:11] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  13:49:11] INFO yp/yp_shutdown YP thread down
+[2017-04-21  13:49:12] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  13:49:17] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  13:49:17] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  13:49:17] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  13:49:54] INFO fserve/fserve_client_create checking for file /index.html (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/index.html)
+[2017-04-21  13:49:54] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/index.html" No such file or directory
+[2017-04-21  13:49:54] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-21  13:49:54] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-21  13:50:00] WARN xslt/xslt_get_stylesheet Error checking for stylesheet file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/status.xsl": No such file or directory
+[2017-04-21  13:50:00] EROR xslt/xslt_transform problem reading stylesheet "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/status.xsl"
+[2017-04-21  13:50:01] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-21  13:50:01] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-21  13:50:08] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  13:50:08] INFO main/main Shutting down
+[2017-04-21  13:50:08] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  13:50:08] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  13:50:08] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  13:50:08] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  13:50:08] INFO yp/yp_shutdown YP thread down
+[2017-04-21  13:50:09] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  13:50:20] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  13:50:20] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  13:50:20] INFO stats/_stats_thread stats thread started
+[2017-04-21  13:50:20] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  13:50:24] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  13:50:24] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  13:50:25] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  13:50:33] WARN xslt/xslt_get_stylesheet Error checking for stylesheet file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/status.xsl": No such file or directory
+[2017-04-21  13:50:33] EROR xslt/xslt_transform problem reading stylesheet "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/status.xsl"
+[2017-04-21  13:50:34] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-21  13:50:34] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-21  13:50:37] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  13:50:38] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-21  13:50:38] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-21  13:50:49] WARN source/get_next_buffer Disconnecting source due to socket timeout
+[2017-04-21  13:50:49] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  13:50:49] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  13:50:50] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  13:50:50] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  13:50:50] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-21  13:50:50] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-21  13:51:01] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  13:51:01] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  13:51:02] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-21  13:51:02] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-21  13:51:02] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  13:51:02] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  13:51:02] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-21  13:51:02] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-21  13:51:03] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  13:51:03] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  13:51:03] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-21  13:51:03] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-21  13:51:04] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  13:51:04] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  13:51:04] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  13:51:04] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  13:51:04] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  13:51:04] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  13:51:05] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  13:51:05] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  13:51:06] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-21  13:51:06] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-21  13:51:21] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  13:51:21] INFO main/main Shutting down
+[2017-04-21  13:51:21] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  13:51:21] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  13:51:21] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  13:51:21] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  13:51:21] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  13:51:21] INFO yp/yp_shutdown YP thread down
+[2017-04-21  13:51:21] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  14:23:25] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  14:23:25] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  14:23:25] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  14:23:28] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  14:23:28] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  14:23:28] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  14:23:35] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  14:23:36] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-21  14:23:36] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-21  14:36:45] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  14:36:45] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  14:36:45] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  14:36:45] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  14:36:45] INFO main/main Shutting down
+[2017-04-21  14:36:45] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  14:36:45] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  14:36:45] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  14:36:45] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  14:36:45] INFO yp/yp_shutdown YP thread down
+[2017-04-21  14:36:46] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  14:36:59] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  14:36:59] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  14:36:59] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  14:36:59] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  14:36:59] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  14:37:00] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  14:38:14] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  14:38:15] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-21  14:38:15] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-21  14:44:22] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  14:44:22] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  14:44:22] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  14:44:22] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  14:44:22] INFO main/main Shutting down
+[2017-04-21  14:44:22] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  14:44:23] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  14:44:23] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  14:44:23] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  14:44:23] INFO yp/yp_shutdown YP thread down
+[2017-04-21  14:44:24] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  14:51:36] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  14:51:36] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  14:51:36] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  14:51:38] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  14:51:38] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  14:51:39] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  14:51:51] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  14:51:52] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-21  14:51:52] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-21  14:51:52] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-21  14:51:52] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-21  16:04:09] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  16:04:09] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  16:04:09] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  16:04:09] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  16:04:09] INFO main/main Shutting down
+[2017-04-21  16:04:09] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  16:04:09] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  16:04:09] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  16:04:09] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  16:04:10] INFO yp/yp_shutdown YP thread down
+[2017-04-21  16:04:10] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  16:04:28] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  16:04:28] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  16:04:28] INFO stats/_stats_thread stats thread started
+[2017-04-21  16:04:28] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  16:04:50] INFO admin/admin_handle_request Bad or missing password on admin command request (command: stats.xsl)
+[2017-04-21  16:05:00] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  16:05:00] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  16:05:27] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  16:05:27] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  16:06:21] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  16:06:21] INFO main/main Shutting down
+[2017-04-21  16:06:21] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  16:06:21] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  16:06:21] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  16:06:21] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  16:06:21] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  16:06:21] INFO yp/yp_shutdown YP thread down
+[2017-04-21  16:06:22] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  16:06:47] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  16:06:47] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  16:06:47] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  16:06:47] INFO stats/_stats_thread stats thread started
+[2017-04-21  16:07:34] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  16:07:34] INFO main/main Shutting down
+[2017-04-21  16:07:34] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  16:07:34] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  16:07:34] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  16:07:34] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  16:07:34] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  16:07:34] INFO yp/yp_shutdown YP thread down
+[2017-04-21  16:07:35] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  16:09:05] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  16:09:05] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  16:09:05] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  16:09:25] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  16:09:25] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  16:09:26] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  16:09:26] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  16:09:26] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  16:09:26] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  16:09:26] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  16:09:26] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  16:09:26] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  16:09:26] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  16:09:27] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  16:09:27] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  16:09:27] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  16:09:27] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  16:09:27] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  16:09:27] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  16:09:27] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  16:09:27] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  16:09:27] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  16:09:27] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  16:09:27] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  16:09:27] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  16:09:28] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  16:09:28] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  16:09:28] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  16:09:28] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  16:09:28] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  16:09:28] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  16:09:39] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  16:09:39] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  16:09:40] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  16:09:50] WARN source/get_next_buffer Disconnecting source due to socket timeout
+[2017-04-21  16:09:50] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  16:10:05] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  16:10:05] INFO main/main Shutting down
+[2017-04-21  16:10:05] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  16:10:05] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  16:10:05] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  16:10:05] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  16:10:05] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  16:10:05] INFO yp/yp_shutdown YP thread down
+[2017-04-21  16:10:05] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  16:10:49] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  16:10:49] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  16:10:49] INFO stats/_stats_thread stats thread started
+[2017-04-21  16:10:49] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  16:10:51] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  16:10:51] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  16:10:52] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  16:11:00] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  16:55:01] INFO source/source_main listener count on /ttldradio now 2
+[2017-04-21  16:55:01] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  16:55:40] WARN source/get_next_buffer Disconnecting source due to socket timeout
+[2017-04-21  16:55:40] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  16:55:40] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  16:55:59] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  16:55:59] INFO main/main Shutting down
+[2017-04-21  16:55:59] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  16:55:59] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  16:55:59] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  16:55:59] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  16:55:59] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  16:56:00] INFO yp/yp_shutdown YP thread down
+[2017-04-21  16:56:00] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  16:57:10] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  16:57:10] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  16:57:10] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  16:57:12] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  16:57:12] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  16:57:12] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  16:57:29] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  16:57:49] INFO source/source_main listener count on /ttldradio now 2
+[2017-04-21  16:57:49] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:04:09] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  17:04:09] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  17:04:09] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  17:04:09] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  17:04:09] INFO main/main Shutting down
+[2017-04-21  17:04:09] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  17:04:09] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  17:04:09] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  17:04:09] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  17:04:09] INFO yp/yp_shutdown YP thread down
+[2017-04-21  17:04:09] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  17:09:54] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  17:09:54] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  17:09:54] INFO stats/_stats_thread stats thread started
+[2017-04-21  17:09:54] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  17:09:56] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  17:09:56] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  17:09:56] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  17:10:12] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:10:58] INFO source/source_main listener count on /ttldradio now 2
+[2017-04-21  17:10:58] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:12:46] INFO source/source_main listener count on /ttldradio now 2
+[2017-04-21  17:12:46] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:15:58] INFO source/source_main listener count on /ttldradio now 2
+[2017-04-21  17:15:58] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:16:07] INFO source/source_main listener count on /ttldradio now 2
+[2017-04-21  17:16:07] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:18:24] INFO source/source_main listener count on /ttldradio now 2
+[2017-04-21  17:18:25] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:18:29] WARN xslt/xslt_get_stylesheet Error checking for stylesheet file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/status.xsl": No such file or directory
+[2017-04-21  17:18:29] EROR xslt/xslt_transform problem reading stylesheet "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/status.xsl"
+[2017-04-21  17:18:30] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  17:18:31] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:19:07] WARN source/get_next_buffer Disconnecting source due to socket timeout
+[2017-04-21  17:19:07] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  17:19:07] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  17:19:54] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  17:19:54] INFO main/main Shutting down
+[2017-04-21  17:19:54] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  17:19:54] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  17:19:54] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  17:19:54] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  17:19:54] INFO yp/yp_shutdown YP thread down
+[2017-04-21  17:19:55] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  17:25:31] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  17:25:31] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  17:25:31] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  17:25:33] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  17:25:33] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  17:25:34] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  17:25:41] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:26:07] WARN source/get_next_buffer Disconnecting source due to socket timeout
+[2017-04-21  17:26:07] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  17:26:07] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  17:26:13] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  17:26:13] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  17:26:22] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  17:26:22] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  17:26:24] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  17:26:24] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  17:26:24] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  17:26:24] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  17:26:25] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  17:26:25] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  17:26:25] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  17:26:25] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  17:26:25] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  17:26:25] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  17:26:26] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  17:26:26] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  17:26:26] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  17:26:26] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  17:26:26] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  17:26:26] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  17:26:26] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  17:26:26] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  17:26:27] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  17:26:27] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  17:26:27] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  17:26:27] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  17:27:23] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  17:27:23] INFO main/main Shutting down
+[2017-04-21  17:27:23] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  17:27:23] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  17:27:24] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  17:27:24] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  17:27:24] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  17:27:24] INFO yp/yp_shutdown YP thread down
+[2017-04-21  17:27:25] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  17:29:04] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  17:29:04] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  17:29:04] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  17:29:04] INFO stats/_stats_thread stats thread started
+[2017-04-21  17:29:06] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  17:29:06] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  17:29:06] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  17:29:31] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:31:15] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  17:31:15] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:33:39] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  17:33:39] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  17:33:39] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  17:33:39] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  17:33:39] INFO main/main Shutting down
+[2017-04-21  17:33:39] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  17:33:40] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  17:33:40] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  17:33:40] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  17:33:40] INFO yp/yp_shutdown YP thread down
+[2017-04-21  17:33:41] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  17:35:45] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  17:35:45] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  17:35:45] INFO stats/_stats_thread stats thread started
+[2017-04-21  17:35:45] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  17:35:47] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  17:35:47] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  17:35:47] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  17:36:15] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:37:21] WARN source/get_next_buffer Disconnecting source due to socket timeout
+[2017-04-21  17:37:21] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  17:37:21] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  17:37:37] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  17:37:37] INFO main/main Shutting down
+[2017-04-21  17:37:37] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  17:37:37] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  17:37:38] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  17:37:38] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  17:37:38] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  17:37:38] INFO yp/yp_shutdown YP thread down
+[2017-04-21  17:37:38] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  17:39:00] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  17:39:00] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  17:39:00] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  17:39:02] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  17:39:02] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  17:39:02] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  17:39:27] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:40:11] WARN source/get_next_buffer Disconnecting source due to socket timeout
+[2017-04-21  17:40:11] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  17:40:11] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  17:40:58] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  17:40:58] INFO main/main Shutting down
+[2017-04-21  17:40:58] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  17:40:58] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  17:40:59] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  17:40:59] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  17:40:59] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  17:40:59] INFO yp/yp_shutdown YP thread down
+[2017-04-21  17:40:59] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  17:44:05] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  17:44:05] INFO stats/_stats_thread stats thread started
+[2017-04-21  17:44:05] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  17:44:05] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  17:44:07] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  17:44:07] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  17:44:07] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  17:44:16] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:44:56] INFO source/source_main listener count on /ttldradio now 2
+[2017-04-21  17:44:57] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:46:29] WARN source/get_next_buffer Disconnecting source due to socket timeout
+[2017-04-21  17:46:29] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  17:46:29] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  17:46:37] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  17:46:37] INFO main/main Shutting down
+[2017-04-21  17:46:37] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  17:46:37] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  17:46:38] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  17:46:38] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  17:46:38] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  17:46:38] INFO yp/yp_shutdown YP thread down
+[2017-04-21  17:46:39] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  17:48:01] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  17:48:01] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  17:48:01] INFO stats/_stats_thread stats thread started
+[2017-04-21  17:48:01] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  17:48:04] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  17:48:04] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  17:48:04] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  17:51:30] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:53:28] INFO source/source_main listener count on /ttldradio now 2
+[2017-04-21  17:53:28] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:53:38] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  17:53:38] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  17:57:37] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  17:57:37] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  17:57:37] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  17:57:37] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  17:57:37] INFO main/main Shutting down
+[2017-04-21  17:57:37] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  17:57:37] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  17:57:37] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  17:57:37] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  17:57:38] INFO yp/yp_shutdown YP thread down
+[2017-04-21  17:57:38] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  18:00:06] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  18:00:06] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  18:00:06] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  18:00:06] INFO stats/_stats_thread stats thread started
+[2017-04-21  18:00:30] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  18:00:30] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  18:01:06] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  18:01:06] INFO main/main Shutting down
+[2017-04-21  18:01:06] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  18:01:06] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  18:01:07] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  18:01:07] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  18:01:07] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  18:01:07] INFO yp/yp_shutdown YP thread down
+[2017-04-21  18:01:07] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  18:02:14] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  18:02:14] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  18:02:14] INFO stats/_stats_thread stats thread started
+[2017-04-21  18:02:14] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  18:02:33] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  18:02:33] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  18:02:48] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  18:02:48] INFO main/main Shutting down
+[2017-04-21  18:02:48] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  18:02:48] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  18:02:48] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  18:02:48] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  18:02:48] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  18:02:48] INFO yp/yp_shutdown YP thread down
+[2017-04-21  18:02:49] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  18:09:08] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  18:09:08] INFO stats/_stats_thread stats thread started
+[2017-04-21  18:09:08] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  18:09:08] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  18:09:28] WARN xslt/xslt_get_stylesheet Error checking for stylesheet file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/status.xsl": No such file or directory
+[2017-04-21  18:09:28] EROR xslt/xslt_transform problem reading stylesheet "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/status.xsl"
+[2017-04-21  18:09:47] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  18:09:47] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  18:10:45] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  18:10:45] INFO main/main Shutting down
+[2017-04-21  18:10:45] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  18:10:45] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  18:10:45] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  18:10:45] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  18:10:45] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  18:10:45] INFO yp/yp_shutdown YP thread down
+[2017-04-21  18:10:45] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  18:11:24] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  18:11:24] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  18:11:24] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  18:11:58] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  18:11:58] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  18:12:01] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  18:12:01] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  18:18:48] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  18:18:48] INFO main/main Shutting down
+[2017-04-21  18:18:48] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  18:18:48] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  18:18:49] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  18:18:49] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  18:18:49] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  18:18:49] INFO yp/yp_shutdown YP thread down
+[2017-04-21  18:18:49] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  18:22:30] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  18:22:30] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  18:22:30] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  18:22:44] INFO fserve/fserve_client_create checking for file /ttldradio (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio)
+[2017-04-21  18:22:44] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/ttldradio" No such file or directory
+[2017-04-21  18:23:04] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  18:23:04] INFO main/main Shutting down
+[2017-04-21  18:23:04] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  18:23:04] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  18:23:04] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  18:23:04] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  18:23:04] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  18:23:04] INFO yp/yp_shutdown YP thread down
+[2017-04-21  18:23:05] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  18:26:59] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  18:26:59] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  18:26:59] INFO stats/_stats_thread stats thread started
+[2017-04-21  18:26:59] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  18:27:01] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  18:27:01] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  18:27:01] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  18:27:15] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  18:27:30] INFO source/source_main listener count on /ttldradio now 2
+[2017-04-21  18:27:30] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  18:28:44] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  18:28:44] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  18:28:44] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  18:28:44] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  18:28:44] INFO main/main Shutting down
+[2017-04-21  18:28:44] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  18:28:45] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  18:28:45] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  18:28:45] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  18:28:45] INFO yp/yp_shutdown YP thread down
+[2017-04-21  18:28:45] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  18:30:43] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  18:30:43] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  18:30:43] INFO stats/_stats_thread stats thread started
+[2017-04-21  18:30:43] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  18:30:45] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  18:30:45] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  18:30:46] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  18:31:08] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  18:32:00] INFO source/source_main listener count on /ttldradio now 2
+[2017-04-21  18:32:24] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  18:33:40] WARN xslt/xslt_get_stylesheet Error checking for stylesheet file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/status.xsl": No such file or directory
+[2017-04-21  18:33:40] EROR xslt/xslt_transform problem reading stylesheet "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/status.xsl"
+[2017-04-21  18:33:46] INFO fserve/fserve_client_create checking for file /admin (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/admin)
+[2017-04-21  18:33:46] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/admin" No such file or directory
+[2017-04-21  18:34:04] INFO fserve/fserve_client_create checking for file /admin (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/admin)
+[2017-04-21  18:34:04] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/admin" No such file or directory
+[2017-04-21  18:34:06] WARN xslt/xslt_get_stylesheet Error checking for stylesheet file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/status.xsl": No such file or directory
+[2017-04-21  18:34:06] EROR xslt/xslt_transform problem reading stylesheet "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/status.xsl"
+[2017-04-21  18:34:16] INFO fserve/fserve_client_create checking for file /admin.xml (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/admin.xml)
+[2017-04-21  18:34:16] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/admin.xml" No such file or directory
+[2017-04-21  18:34:21] INFO fserve/fserve_client_create checking for file /admin.html (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/admin.html)
+[2017-04-21  18:34:21] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/admin.html" No such file or directory
+[2017-04-21  18:35:03] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  18:35:03] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  18:35:03] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  18:35:03] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  18:35:03] INFO main/main Shutting down
+[2017-04-21  18:35:03] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  18:35:03] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  18:35:03] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  18:35:03] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  18:35:03] INFO yp/yp_shutdown YP thread down
+[2017-04-21  18:35:04] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  20:29:37] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  20:29:37] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  20:29:37] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  20:29:39] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  20:29:39] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  20:29:40] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  20:29:50] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  20:30:45] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  20:30:45] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  20:30:45] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  20:30:45] INFO main/main Shutting down
+[2017-04-21  20:30:45] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  20:30:45] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  20:30:45] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  20:30:45] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  20:30:45] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  20:30:45] INFO yp/yp_shutdown YP thread down
+[2017-04-21  20:30:45] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  20:32:55] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  20:32:55] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  20:32:55] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  20:32:55] INFO stats/_stats_thread stats thread started
+[2017-04-21  20:32:57] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  20:32:57] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  20:32:57] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  20:33:04] INFO fserve/fserve_client_create checking for file /admin.html (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/admin.html)
+[2017-04-21  20:33:04] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/admin.html" No such file or directory
+[2017-04-21  20:33:10] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  20:54:06] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  20:54:06] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  20:54:06] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  20:54:06] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  20:54:06] INFO main/main Shutting down
+[2017-04-21  20:54:06] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  20:54:06] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  20:54:06] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  20:54:06] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  20:54:06] INFO yp/yp_shutdown YP thread down
+[2017-04-21  20:54:07] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  21:16:51] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  21:16:51] INFO stats/_stats_thread stats thread started
+[2017-04-21  21:16:51] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  21:16:51] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  21:16:53] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  21:16:53] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  21:16:54] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  21:17:04] WARN source/get_next_buffer Disconnecting source due to socket timeout
+[2017-04-21  21:17:04] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  21:33:31] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  21:33:31] INFO main/main Shutting down
+[2017-04-21  21:33:31] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  21:33:31] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  21:33:31] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  21:33:31] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  21:33:31] INFO yp/yp_shutdown YP thread down
+[2017-04-21  21:33:31] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  21:33:32] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  21:38:01] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  21:38:01] INFO stats/_stats_thread stats thread started
+[2017-04-21  21:38:01] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  21:38:01] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  21:38:03] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  21:38:03] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  21:38:03] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  21:38:15] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  21:38:15] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  21:38:15] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  21:38:15] INFO main/main Shutting down
+[2017-04-21  21:38:15] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  21:38:16] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  21:38:16] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  21:38:16] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  21:38:16] INFO yp/yp_shutdown YP thread down
+[2017-04-21  21:38:16] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  21:39:39] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  21:39:39] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  21:39:40] INFO stats/_stats_thread stats thread started
+[2017-04-21  21:39:40] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  21:39:42] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  21:39:42] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  21:39:42] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  21:40:16] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  21:40:16] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  21:40:16] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  21:40:16] INFO main/main Shutting down
+[2017-04-21  21:40:16] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  21:40:17] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  21:40:17] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  21:40:17] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  21:40:17] INFO yp/yp_shutdown YP thread down
+[2017-04-21  21:40:17] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  21:41:21] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  21:41:21] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  21:41:21] INFO stats/_stats_thread stats thread started
+[2017-04-21  21:41:21] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  21:41:23] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  21:41:23] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  21:41:23] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  21:41:35] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  21:42:42] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  21:42:42] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  21:42:42] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  21:42:42] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  21:42:42] INFO main/main Shutting down
+[2017-04-21  21:42:42] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  21:42:43] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  21:42:43] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  21:42:43] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  21:42:43] INFO yp/yp_shutdown YP thread down
+[2017-04-21  21:42:43] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  21:45:19] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  21:45:19] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  21:45:19] INFO stats/_stats_thread stats thread started
+[2017-04-21  21:45:19] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  21:45:21] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  21:45:21] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  21:45:21] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  21:45:32] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  22:06:28] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  22:06:28] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  22:06:28] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  22:06:28] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  22:06:28] INFO main/main Shutting down
+[2017-04-21  22:06:28] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  22:06:28] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  22:06:28] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  22:06:28] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  22:06:28] INFO yp/yp_shutdown YP thread down
+[2017-04-21  22:06:29] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  22:09:17] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  22:09:17] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  22:09:17] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  22:09:17] INFO stats/_stats_thread stats thread started
+[2017-04-21  22:09:19] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  22:09:19] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  22:09:19] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  22:09:34] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  22:15:44] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  22:15:44] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  22:15:44] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  22:15:44] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  22:15:44] INFO main/main Shutting down
+[2017-04-21  22:15:44] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  22:15:44] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  22:15:44] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  22:15:44] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  22:15:44] INFO yp/yp_shutdown YP thread down
+[2017-04-21  22:15:45] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  22:23:52] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  22:23:52] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  22:23:52] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  22:23:52] INFO stats/_stats_thread stats thread started
+[2017-04-21  22:23:54] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  22:23:54] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  22:23:54] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  22:24:09] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  22:24:09] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  22:24:09] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  22:24:09] INFO main/main Shutting down
+[2017-04-21  22:24:09] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  22:24:10] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  22:24:10] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  22:24:10] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  22:24:10] INFO yp/yp_shutdown YP thread down
+[2017-04-21  22:24:10] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  22:25:26] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  22:25:26] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  22:25:26] INFO stats/_stats_thread stats thread started
+[2017-04-21  22:25:26] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  22:25:28] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  22:25:28] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  22:25:28] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  22:25:38] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  22:41:41] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  22:41:41] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  22:41:41] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  22:41:41] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  22:41:41] INFO main/main Shutting down
+[2017-04-21  22:41:41] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  22:41:41] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  22:41:41] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  22:41:41] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  22:41:41] INFO yp/yp_shutdown YP thread down
+[2017-04-21  22:41:41] INFO stats/stats_shutdown stats thread finished
+[2017-04-21  22:42:51] INFO main/main Icecast 2.4.2 server started
+[2017-04-21  22:42:51] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-21  22:42:51] INFO yp/yp_update_thread YP update thread started
+[2017-04-21  22:42:51] INFO stats/_stats_thread stats thread started
+[2017-04-21  22:42:53] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-21  22:42:53] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-21  22:42:53] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-21  22:43:23] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-21  22:44:12] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-21  22:44:12] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-21  22:44:12] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-21  22:44:12] INFO source/source_clear_source 1 active listeners on /ttldradio released
+[2017-04-21  22:44:12] INFO main/main Shutting down
+[2017-04-21  22:44:12] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-21  22:44:13] INFO slave/_slave_thread shutting down current relays
+[2017-04-21  22:44:13] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-21  22:44:13] INFO auth/auth_shutdown Auth shutdown
+[2017-04-21  22:44:13] INFO yp/yp_shutdown YP thread down
+[2017-04-21  22:44:13] INFO stats/stats_shutdown stats thread finished
+[2017-04-22  13:26:33] INFO main/main Icecast 2.4.2 server started
+[2017-04-22  13:26:33] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-22  13:26:33] INFO yp/yp_update_thread YP update thread started
+[2017-04-22  13:26:33] INFO stats/_stats_thread stats thread started
+[2017-04-22  13:26:35] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-22  13:26:35] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-22  13:26:35] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-22  13:26:45] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-22  13:26:45] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-22  13:26:46] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-22  13:26:46] INFO main/main Shutting down
+[2017-04-22  13:26:46] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-22  13:26:46] INFO slave/_slave_thread shutting down current relays
+[2017-04-22  13:26:46] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-22  13:26:46] INFO auth/auth_shutdown Auth shutdown
+[2017-04-22  13:26:46] INFO yp/yp_shutdown YP thread down
+[2017-04-22  13:26:47] INFO stats/stats_shutdown stats thread finished
+[2017-04-22  18:38:11] INFO main/main Icecast 2.4.2 server started
+[2017-04-22  18:38:11] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-22  18:38:11] INFO stats/_stats_thread stats thread started
+[2017-04-22  18:38:11] INFO yp/yp_update_thread YP update thread started
+[2017-04-22  18:38:13] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-22  18:38:13] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-22  18:38:13] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-22  18:38:37] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-22  18:38:37] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-22  18:38:37] INFO main/main Shutting down
+[2017-04-22  18:38:37] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-22  18:38:37] INFO slave/_slave_thread shutting down current relays
+[2017-04-22  18:38:37] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-22  18:38:37] INFO auth/auth_shutdown Auth shutdown
+[2017-04-22  18:38:37] INFO yp/yp_shutdown YP thread down
+[2017-04-22  18:38:37] INFO stats/stats_shutdown stats thread finished
+[2017-04-22  18:39:11] INFO main/main Icecast 2.4.2 server started
+[2017-04-22  18:39:11] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-22  18:39:11] INFO yp/yp_update_thread YP update thread started
+[2017-04-22  18:39:11] INFO stats/_stats_thread stats thread started
+[2017-04-22  18:39:13] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-22  18:39:13] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-22  18:39:13] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-22  18:40:24] WARN xslt/xslt_get_stylesheet Error checking for stylesheet file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/status.xsl": No such file or directory
+[2017-04-22  18:40:24] EROR xslt/xslt_transform problem reading stylesheet "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/status.xsl"
+[2017-04-22  18:40:24] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-22  18:40:24] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-22  18:40:33] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-22  18:40:34] INFO source/source_main listener count on /ttldradio now 2
+[2017-04-22  18:40:34] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-22  18:42:56] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-22  20:16:05] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-22  20:16:05] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-22  20:16:06] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-22  20:16:06] INFO main/main Shutting down
+[2017-04-22  20:16:06] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-22  20:16:07] INFO slave/_slave_thread shutting down current relays
+[2017-04-22  20:16:07] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-22  20:16:07] INFO auth/auth_shutdown Auth shutdown
+[2017-04-22  20:16:07] INFO yp/yp_shutdown YP thread down
+[2017-04-22  20:16:07] INFO stats/stats_shutdown stats thread finished
+[2017-04-22  20:31:18] INFO main/main Icecast 2.4.2 server started
+[2017-04-22  20:31:18] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-22  20:31:18] INFO stats/_stats_thread stats thread started
+[2017-04-22  20:31:18] INFO yp/yp_update_thread YP update thread started
+[2017-04-22  20:31:21] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-22  20:31:21] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-22  20:31:21] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-22  20:32:20] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-22  20:32:20] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-22  20:32:20] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-22  20:32:20] INFO main/main Shutting down
+[2017-04-22  20:32:20] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-22  20:32:21] INFO slave/_slave_thread shutting down current relays
+[2017-04-22  20:32:21] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-22  20:32:21] INFO auth/auth_shutdown Auth shutdown
+[2017-04-22  20:32:21] INFO yp/yp_shutdown YP thread down
+[2017-04-22  20:32:22] INFO stats/stats_shutdown stats thread finished
+[2017-04-22  21:19:07] INFO main/main Icecast 2.4.2 server started
+[2017-04-22  21:19:07] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-22  21:19:07] INFO yp/yp_update_thread YP update thread started
+[2017-04-22  21:19:10] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-22  21:19:10] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-22  21:19:10] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-22  22:27:03] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-22  22:27:03] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-22  22:27:04] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-22  22:27:04] INFO main/main Shutting down
+[2017-04-22  22:27:04] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-22  22:27:05] INFO slave/_slave_thread shutting down current relays
+[2017-04-22  22:27:05] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-22  22:27:05] INFO auth/auth_shutdown Auth shutdown
+[2017-04-22  22:27:05] INFO yp/yp_shutdown YP thread down
+[2017-04-22  22:27:05] INFO stats/stats_shutdown stats thread finished
+[2017-04-22  22:28:46] INFO main/main Icecast 2.4.2 server started
+[2017-04-22  22:28:46] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-22  22:28:46] INFO stats/_stats_thread stats thread started
+[2017-04-22  22:28:46] INFO yp/yp_update_thread YP update thread started
+[2017-04-22  22:28:48] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-22  22:28:48] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-22  22:28:49] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-22  22:29:26] WARN source/get_next_buffer Disconnecting source due to socket timeout
+[2017-04-22  22:29:26] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-22  22:39:24] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-22  22:39:24] INFO main/main Shutting down
+[2017-04-22  22:39:24] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-22  22:39:24] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-22  22:39:25] INFO slave/_slave_thread shutting down current relays
+[2017-04-22  22:39:25] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-22  22:39:25] INFO auth/auth_shutdown Auth shutdown
+[2017-04-22  22:39:25] INFO yp/yp_shutdown YP thread down
+[2017-04-22  22:39:26] INFO stats/stats_shutdown stats thread finished
+[2017-04-22  22:42:01] INFO main/main Icecast 2.4.2 server started
+[2017-04-22  22:42:01] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-22  22:42:01] INFO stats/_stats_thread stats thread started
+[2017-04-22  22:42:01] INFO yp/yp_update_thread YP update thread started
+[2017-04-22  22:42:03] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-22  22:42:03] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-22  22:42:03] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-22  22:43:00] WARN source/get_next_buffer Disconnecting source due to socket timeout
+[2017-04-22  22:43:00] INFO source/source_shutdown Source from 127.0.0.1 at "/ttldradio" exiting
+[2017-04-22  22:43:22] INFO sighandler/_sig_die Caught signal 2, shutting down...
+[2017-04-22  22:43:22] INFO main/main Shutting down
+[2017-04-22  22:43:22] INFO fserve/fserve_shutdown file serving stopped
+[2017-04-22  22:43:22] INFO sighandler/_sig_die Caught signal 15, shutting down...
+[2017-04-22  22:43:23] INFO slave/_slave_thread shutting down current relays
+[2017-04-22  22:43:23] INFO slave/_slave_thread Slave thread shutdown complete
+[2017-04-22  22:43:23] INFO auth/auth_shutdown Auth shutdown
+[2017-04-22  22:43:23] INFO yp/yp_shutdown YP thread down
+[2017-04-22  22:43:23] INFO stats/stats_shutdown stats thread finished
+[2017-04-22  22:44:33] INFO main/main Icecast 2.4.2 server started
+[2017-04-22  22:44:33] INFO connection/get_ssl_certificate No SSL capability
+[2017-04-22  22:44:33] INFO yp/yp_update_thread YP update thread started
+[2017-04-22  22:44:35] INFO connection/_handle_source_request Source logging in at mountpoint "/ttldradio" from 127.0.0.1
+[2017-04-22  22:44:35] WARN format/format_get_type Unsupported or legacy stream type: "audio/mpeg". Falling back to generic minimal handler for best effort.
+[2017-04-22  22:44:35] INFO source/source_main listener count on /ttldradio now 0
+[2017-04-22  22:46:14] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-22  22:46:14] INFO source/source_main listener count on /ttldradio now 2
+[2017-04-22  22:46:14] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-22  22:46:18] INFO fserve/fserve_client_create checking for file /favicon.ico (/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico)
+[2017-04-22  22:46:18] WARN fserve/fserve_client_create req for file "/home/moonwalker/programming/workspace/ttld/src/main/resources/icecast/favicon.ico" No such file or directory
+[2017-04-22  22:48:00] INFO source/source_main listener count on /ttldradio now 2
+[2017-04-22  22:48:00] INFO source/source_main listener count on /ttldradio now 3
+[2017-04-22  22:48:00] INFO source/source_main listener count on /ttldradio now 1
+[2017-04-22  23:05:01] INFO source/source_main listener count on /ttldradio now 0

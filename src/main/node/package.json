@@ -1,9 +1,0 @@
-{
-  "name": "naive",
-  "description": "radio signaling station",
-  "author": "Tufar Dorin",
-  "dependencies": {
-    "express": ">= 1.2.0",
-    "mediaserver" : ""
-  }
-}
